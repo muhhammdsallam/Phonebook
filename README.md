@@ -16,6 +16,8 @@ So, without further ado, here’s the program’s manual.
 # Project manual
 As mentioned before the program is designed to perform certain tasks.  So, this part shows how the program works and how to use it.
 First of all the program starts by loading the contacts from default file , then a list of all tasks is printed on the screen with the number of contacts in the file as follows:
+
+
 ![image](https://user-images.githubusercontent.com/81472165/116831202-33675000-abae-11eb-9cf4-66b994562b66.png)
 
 
@@ -27,6 +29,8 @@ First of all the program starts by loading the contacts from default file , then
 
 This function is used to look for any specific contact in your list and print all the     contacts found.
 The function starts when you press the letter ‘S’ --doesn’t matter either upper case or lower case--, when you press ‘S’ another list of options appear which is the “search by” list where you choose what to search with:
+
+
 
 ![image](https://user-images.githubusercontent.com/81472165/116831209-3d894e80-abae-11eb-8d06-fadb1816f0a2.png)
 
