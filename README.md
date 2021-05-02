@@ -13,7 +13,7 @@ To help us achieve our goal we used specific functions and certain algorithms th
 So, without further ado, here’s the program’s manual.  
 
  
-Project manual
+#Project manual
 As mentioned before the program is designed to perform certain tasks.  So, this part shows how the program works and how to use it.
 First of all the program starts by loading the contacts from default file , then a list of all tasks is printed on the screen with the number of contacts in the file as follows:
 ![image](https://user-images.githubusercontent.com/81472165/116831202-33675000-abae-11eb-9cf4-66b994562b66.png)
@@ -23,7 +23,7 @@ First of all the program starts by loading the contacts from default file , then
  The tasks are as follows:
 
 
-1-Search contact
+#1-Search contact
 
 This function is used to look for any specific contact in your list and print all the     contacts found.
 The function starts when you press the letter ‘S’ --doesn’t matter either upper case or lower case--, when you press ‘S’ another list of options appear which is the “search by” list where you choose what to search with:
@@ -54,10 +54,10 @@ Sample run:
 
 	
 
-2-Add contact
+#2-Add contact
 
-		You can add new contacts to the list by using the add function by pressing ‘A’.
-		When you start adding the program will ask you to write:
+You can add new contacts to the list by using the add function by pressing ‘A’.
+When you start adding the program will ask you to write:
 1-	First name
 2-	Last name
 3-	The birth date day
@@ -78,7 +78,7 @@ After writing all the information the contact will be added to your list.
  
 
 
-3-Delete contact
+#3-Delete contact
 
 By pressing ‘D’ the delete function will let you search for any aspect in any contact you want and then prints all the contacts found with the contact number, then you can choose which contact you want to delete.
 The function print the “Search to delete list” where you choose what to search just like the Search function as mentioned before.
@@ -92,7 +92,7 @@ After the entering the data if you entered wrong data or no contact is found the
 ![image](https://user-images.githubusercontent.com/81472165/116831241-5f82d100-abae-11eb-9f23-5675486bc7a2.png)
 
 
-4-Modify contact
+#4-Modify contact
 
 The modify function starts by pressing ‘M’ button, the function then prints the search options list which is “Search to modify”  to help you find the contact you want to edit.
 
@@ -110,9 +110,9 @@ After choosing a command from those given you will be asked for the new informat
 ![image](https://user-images.githubusercontent.com/81472165/116831264-7cb79f80-abae-11eb-8b2f-5c20a7f5cd72.png)
 
 
-5-Print sorted contacts
+#5-Print sorted contacts
           
-          Can be accessed by pressing ‘P’.
+Can be accessed by pressing ‘P’.
 This function is used to print all the contacts in your list according to three things 
 		You can choose between:
 		-First name
@@ -121,8 +121,8 @@ This function is used to print all the contacts in your list according to three 
 
 ![image](https://user-images.githubusercontent.com/81472165/116831270-84774400-abae-11eb-80cd-0a4e2df24fab.png)
 
-		After choosing a command from those given , the contacts in your list will be 
-		Printed after sorting.
+After choosing a command from those given , the contacts in your list will be 
+Printed after sorting.
 		
 		
 Sample run:
@@ -130,39 +130,39 @@ Sample run:
  ![image](https://user-images.githubusercontent.com/81472165/116831277-8b05bb80-abae-11eb-8835-777b8d7b66d5.png)
 
 
-6-Save
+#6-Save
 
-	Don’t forget to save your progress by pressing ‘V’ or all your work will not be saved.
-	The save function is used to save all of the modifications done from all the previous
-	functions mentioned before.
+Don’t forget to save your progress by pressing ‘V’ or all your work will not be saved.
+The save function is used to save all of the modifications done from all the previous
+functions mentioned before.
 
-	Sample run:
+Sample run:
 ![image](https://user-images.githubusercontent.com/81472165/116831285-90630600-abae-11eb-8522-ee86b6356ca6.png)
 
 
 
-7-Quit
+#7-Quit
 
 If you want to close the program you can just press ‘Q’, there will be three options to choose from:
 		-yes 
 		-no
 		-yes, but save first 
              
-             Sample run :
+Sample run :
 
 ![image](https://user-images.githubusercontent.com/81472165/116831288-96f17d80-abae-11eb-8044-c350088ac832.png)
 	
 
-		These options are given because as we mentioned before your progress isn’t saved 
+These options are given because as we mentioned before your progress isn’t saved 
 unless you save it by pressing ‘V’ else the changes you made is gone, so, if you  didn’t save the progress and choose to exit the program you have to choose between this options.
 If “yes” is chosen the program will be closed and depending on you saving the progress or not it will not be saved.
 If “no” is chosen you will return to the menu once again.
 If “yes, but save first” is chosen then your work will be saved and the program will then close.
 
  
-Program algorithms
+#Program algorithms
 
-Search algorithm :
+#Search algorithm :
 
 The search algorithm is designed with the objective of generating a binary code that declares whether if each contact in the directory agrees to the search conditions declared by the user or not, this code of zeros and ones represents the applicability of each contact with the search specifications, with ‘1’ as true or applicable and ‘0’ as false or not applicable, the set of ones and zeros, that are position coded according to the number of the contact being checked, can then be used in any other operation, helping in filtering any data type according to acquired specifications.
 An array of integers, declared as found with the size of existing contacts, is initially initialized and is passed to the main search algorithm in terms of a pointer pointing to the beginning of the array, giving the function free access to modify the array’s values.
@@ -177,7 +177,7 @@ This multi search function, like the main search function, receives a pointer po
 
 
 
-Sort algorithm :
+#Sort algorithm :
 
 The sort algorithm is mainly based on the concept of the bubble sorting, in which each two consecutive elements are to be checked as a pair for which should precede the other and if they are in an undesired order they are swapped together, this algorithm result in assuring that the value that belongs at the very end of the sequence will be placed there but does not assure that the rest of the elements are well sorted due to the variety of their original positions.
 To maintain this problem the whole algorithm is repeated on the entire sequence except the last element as it’s assured to be in the rightful place. The repetition now also validate the position of the element before last, repeating the algorithm, with an interval of one element short than the previous one, till reaching a single element interval will assure the sorting of the whole sequence, the mixing of both algorithms is known as the concept of bubble sorting, the only difference in bubble sorting of one sequence than the other is the group of conditions that will determine whether swap should occur or not.
