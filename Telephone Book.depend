@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1577054146 source:h:\telephone book\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structures.h"
+	"headers.h"
+
+1577053021 h:\telephone book\structures.h
+
+1577052539 h:\telephone book\headers.h
+
+1577053852 source:h:\telephone book\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structures.h"
+	"headers.h"
+
+1577053854 source:c:\users\msall\onedrive\desktop\telephone book1\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structures.h"
+	"headers.h"
+
+1577053022 c:\users\msall\onedrive\desktop\telephone book1\structures.h
+
+1577052540 c:\users\msall\onedrive\desktop\telephone book1\headers.h
+
+1577054148 source:c:\users\msall\onedrive\desktop\telephone book1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structures.h"
+	"headers.h"
+
+1577181332 source:c:\users\msall\onedrive\desktop\new folder\telephone book1\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structures.h"
+	"headers.h"
+
+1577137269 c:\users\msall\onedrive\desktop\new folder\telephone book1\structures.h
+
+1577052540 c:\users\msall\onedrive\desktop\new folder\telephone book1\headers.h
+
+1577281470 source:c:\users\msall\onedrive\desktop\new folder\telephone book1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structures.h"
+	"headers.h"
+
+1577181332 source:d:\desktop\telephone book1\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structures.h"
+	"headers.h"
+
+1577137269 d:\desktop\telephone book1\structures.h
+
+1577052540 d:\desktop\telephone book1\headers.h
+
+1577281470 source:d:\desktop\telephone book1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structures.h"
+	"headers.h"
+
