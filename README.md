@@ -16,6 +16,7 @@ So, without further ado, here’s the program’s manual.
 Project manual
 As mentioned before the program is designed to perform certain tasks.  So, this part shows how the program works and how to use it.
 First of all the program starts by loading the contacts from default file , then a list of all tasks is printed on the screen with the number of contacts in the file as follows:
+![image](https://user-images.githubusercontent.com/81472165/116831202-33675000-abae-11eb-9cf4-66b994562b66.png)
 
 
 		
@@ -27,6 +28,7 @@ First of all the program starts by loading the contacts from default file , then
 This function is used to look for any specific contact in your list and print all the     contacts found.
 The function starts when you press the letter ‘S’ --doesn’t matter either upper case or lower case--, when you press ‘S’ another list of options appear which is the “search by” list where you choose what to search with:
 
+![image](https://user-images.githubusercontent.com/81472165/116831209-3d894e80-abae-11eb-8d06-fadb1816f0a2.png)
 
 
 
@@ -46,6 +48,7 @@ The options are:
 
 Sample run:
   
+![image](https://user-images.githubusercontent.com/81472165/116831214-44b05c80-abae-11eb-824e-800862dec9fa.png)
 
 
 
@@ -65,9 +68,12 @@ Sample run:
 8-	The area code
 9-	The phone number
 
+![image](https://user-images.githubusercontent.com/81472165/116831226-4ed25b00-abae-11eb-8ece-79820c33c1fb.png)
+
 
 After writing all the information the contact will be added to your list.
 
+![image](https://user-images.githubusercontent.com/81472165/116831231-53970f00-abae-11eb-99d4-4cc5f5a65aad.png)
 
  
 
@@ -78,23 +84,30 @@ By pressing ‘D’ the delete function will let you search for any aspect in an
 The function print the “Search to delete list” where you choose what to search just like the Search function as mentioned before.
 Sample run :
 
+![image](https://user-images.githubusercontent.com/81472165/116831237-5a258680-abae-11eb-8ac5-3820663fd422.png)
 
 
 After the entering the data if you entered wrong data or no contact is found there is two options to choose, either search again by pressing ‘R’ or cancel search and return to menu by pressing ‘C’.
 
+![image](https://user-images.githubusercontent.com/81472165/116831241-5f82d100-abae-11eb-9f23-5675486bc7a2.png)
 
 
 4-Modify contact
 
 The modify function starts by pressing ‘M’ button, the function then prints the search options list which is “Search to modify”  to help you find the contact you want to edit.
 
+![image](https://user-images.githubusercontent.com/81472165/116831255-71647400-abae-11eb-8c6e-4e4c77a5163b.png)
+
+
 After choosing any command the program will print all the found contacts and prints them allowing you to choose which contact you want , after choosing the contact a new list will be printed so you can choose what to edit in this contact.
 
 Sample run :
 
+![image](https://user-images.githubusercontent.com/81472165/116831259-76c1be80-abae-11eb-8ab4-e7108ebf1937.png)
 
 
 After choosing a command from those given you will be asked for the new information you choose to change and then it will be done.
+![image](https://user-images.githubusercontent.com/81472165/116831264-7cb79f80-abae-11eb-8b2f-5c20a7f5cd72.png)
 
 
 5-Print sorted contacts
@@ -106,6 +119,7 @@ This function is used to print all the contacts in your list according to three 
 		-Last name
 		-Birth date
 
+![image](https://user-images.githubusercontent.com/81472165/116831270-84774400-abae-11eb-80cd-0a4e2df24fab.png)
 
 		After choosing a command from those given , the contacts in your list will be 
 		Printed after sorting.
@@ -113,6 +127,8 @@ This function is used to print all the contacts in your list according to three 
 		
 Sample run:
  
+ ![image](https://user-images.githubusercontent.com/81472165/116831277-8b05bb80-abae-11eb-8835-777b8d7b66d5.png)
+
 
 6-Save
 
@@ -121,6 +137,7 @@ Sample run:
 	functions mentioned before.
 
 	Sample run:
+![image](https://user-images.githubusercontent.com/81472165/116831285-90630600-abae-11eb-8522-ee86b6356ca6.png)
 
 
 
@@ -133,7 +150,8 @@ If you want to close the program you can just press ‘Q’, there will be three
              
              Sample run :
 
-		
+![image](https://user-images.githubusercontent.com/81472165/116831288-96f17d80-abae-11eb-8044-c350088ac832.png)
+	
 
 		These options are given because as we mentioned before your progress isn’t saved 
 unless you save it by pressing ‘V’ else the changes you made is gone, so, if you  didn’t save the progress and choose to exit the program you have to choose between this options.
