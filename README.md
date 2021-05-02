@@ -41,7 +41,7 @@ The function starts when you press the letter ‘S’ --doesn’t matter either 
 
 The options are:
 1-  Searching by First name accessed by pressing ‘F’
-            2-  Searching by Last name accessed by pressing ‘L’
+2-  Searching by Last name accessed by pressing ‘L’
 3-  Searching by Email address accessed by pressing ‘E’
 4-  Searching by Phone number accessed by pressing ‘P’
 5-  Searching by Date of birth accessed by pressing ‘D’
