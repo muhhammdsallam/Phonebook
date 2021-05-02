@@ -187,3 +187,9 @@ The sort algorithm is mainly based on the concept of the bubble sorting, in whic
 To maintain this problem the whole algorithm is repeated on the entire sequence except the last element as it’s assured to be in the rightful place. The repetition now also validate the position of the element before last, repeating the algorithm, with an interval of one element short than the previous one, till reaching a single element interval will assure the sorting of the whole sequence, the mixing of both algorithms is known as the concept of bubble sorting, the only difference in bubble sorting of one sequence than the other is the group of conditions that will determine whether swap should occur or not.
 In this program, two main groups of conditions were used, one sorting by both first name and last name, and the other sorting the date of birth of the contact. The swapping condition for names was made by the strcasecmp function, if the name in the first element is bigger alphabetically than the name in the second element, ignoring uppercasing, the contacts are swapped, if the names are identical, the other name category is checked by the same way, accordingly sorting by first and last names and vice versa.
 When it came to sorting by date, a group of different conditions where used to sort the contacts, that meant starting with the year first, if the first year is smaller than the second, then the person is older, then swap contacts, but then if the years were identical, the month is being checked the same way, swapping if the month is smaller, same with the similarity of months, then days are to be compared the same way. Another main point is that the occurrence of swap means that the condition was true, therefore checking the other conditions will not be valid as the previous one already satisfied, so a (continue;) function was used to escape any further useless comparisons.
+
+
+
+
+
+Muhhamed Sallam      Amr Salah      Adham Wael
